@@ -546,7 +546,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^22.10.0":
   version: 22.10.0
   resolution: "@types/node@npm:22.10.0"
   dependencies:
@@ -2006,6 +2006,7 @@ __metadata:
   dependencies:
     "@sveltejs/vite-plugin-svelte": "npm:^4.0.0"
     "@tsconfig/svelte": "npm:^5.0.4"
+    "@types/node": "npm:^22.10.0"
     "@types/webextension-polyfill": "npm:^0.12.1"
     svelte: "npm:^5.2.8"
     svelte-check: "npm:^4.1.0"

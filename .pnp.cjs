@@ -29,12 +29,13 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@sveltejs/vite-plugin-svelte", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.0.2"],\
           ["@tsconfig/svelte", "npm:5.0.4"],\
+          ["@types/node", "npm:22.10.0"],\
           ["@types/webextension-polyfill", "npm:0.12.1"],\
           ["svelte", "npm:5.2.8"],\
           ["svelte-check", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.1.0"],\
           ["tslib", "npm:2.8.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
-          ["vite", "virtual:703bb33f03bc0d870d51e085d16719d779db8034c9e533563649ab7c3ab4aa45c7eaac88a6be9c439cdeef9115d857decbbd3636048a28f5fe8e05367f443e07#npm:5.4.11"],\
+          ["vite", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:5.4.11"],\
           ["vite-plugin-web-extension", "npm:4.3.1"],\
           ["webextension-polyfill", "npm:0.12.0"]\
         ],\
@@ -653,7 +654,7 @@ const RAW_RUNTIME_STATE =
           ["kleur", "npm:4.1.5"],\
           ["magic-string", "npm:0.30.13"],\
           ["svelte", "npm:5.2.8"],\
-          ["vite", "virtual:703bb33f03bc0d870d51e085d16719d779db8034c9e533563649ab7c3ab4aa45c7eaac88a6be9c439cdeef9115d857decbbd3636048a28f5fe8e05367f443e07#npm:5.4.11"],\
+          ["vite", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:5.4.11"],\
           ["vitefu", "virtual:de15a172f3b1f48099fbdcb101e1104cfadf152783960343f9f3a3e0dac19f5a2ddc6ebf20755388118a8af684d9a524fd42370c1fc09a858b74d620a0f6a83c#npm:1.0.3"]\
         ],\
         "packagePeers": [\
@@ -683,7 +684,7 @@ const RAW_RUNTIME_STATE =
           ["@types/vite", null],\
           ["debug", "virtual:0f6406e645af20bb5a8fc9c98dd8b51960f290b8b30d90002d7218e77bd236e2eb81429e97aa844a2c03dbbe51e7ccddc609261aaa4afe3c42ed9d3e285ad47f#npm:4.3.7"],\
           ["svelte", "npm:5.2.8"],\
-          ["vite", "virtual:703bb33f03bc0d870d51e085d16719d779db8034c9e533563649ab7c3ab4aa45c7eaac88a6be9c439cdeef9115d857decbbd3636048a28f5fe8e05367f443e07#npm:5.4.11"]\
+          ["vite", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:5.4.11"]\
         ],\
         "packagePeers": [\
           "@sveltejs/vite-plugin-svelte",\
@@ -2376,12 +2377,13 @@ const RAW_RUNTIME_STATE =
           ["kai", "workspace:."],\
           ["@sveltejs/vite-plugin-svelte", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.0.2"],\
           ["@tsconfig/svelte", "npm:5.0.4"],\
+          ["@types/node", "npm:22.10.0"],\
           ["@types/webextension-polyfill", "npm:0.12.1"],\
           ["svelte", "npm:5.2.8"],\
           ["svelte-check", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.1.0"],\
           ["tslib", "npm:2.8.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
-          ["vite", "virtual:703bb33f03bc0d870d51e085d16719d779db8034c9e533563649ab7c3ab4aa45c7eaac88a6be9c439cdeef9115d857decbbd3636048a28f5fe8e05367f443e07#npm:5.4.11"],\
+          ["vite", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:5.4.11"],\
           ["vite-plugin-web-extension", "npm:4.3.1"],\
           ["webextension-polyfill", "npm:0.12.0"]\
         ],\
@@ -3847,6 +3849,49 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:5.4.11", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-082ee98b82/4/.yarn/berry/cache/vite-npm-5.4.11-9da365ef2b-10c0.zip/node_modules/vite/",\
+        "packageDependencies": [\
+          ["vite", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:5.4.11"],\
+          ["@types/less", null],\
+          ["@types/lightningcss", null],\
+          ["@types/node", "npm:22.10.0"],\
+          ["@types/sass", null],\
+          ["@types/sass-embedded", null],\
+          ["@types/stylus", null],\
+          ["@types/sugarss", null],\
+          ["@types/terser", null],\
+          ["esbuild", "npm:0.21.5"],\
+          ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
+          ["less", null],\
+          ["lightningcss", null],\
+          ["postcss", "npm:8.4.49"],\
+          ["rollup", "npm:4.27.4"],\
+          ["sass", null],\
+          ["sass-embedded", null],\
+          ["stylus", null],\
+          ["sugarss", null],\
+          ["terser", null]\
+        ],\
+        "packagePeers": [\
+          "@types/less",\
+          "@types/lightningcss",\
+          "@types/node",\
+          "@types/sass-embedded",\
+          "@types/sass",\
+          "@types/stylus",\
+          "@types/sugarss",\
+          "@types/terser",\
+          "less",\
+          "lightningcss",\
+          "sass-embedded",\
+          "sass",\
+          "stylus",\
+          "sugarss",\
+          "terser"\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["virtual:703bb33f03bc0d870d51e085d16719d779db8034c9e533563649ab7c3ab4aa45c7eaac88a6be9c439cdeef9115d857decbbd3636048a28f5fe8e05367f443e07#npm:5.4.11", {\
         "packageLocation": "./.yarn/__virtual__/vite-virtual-c9b22eddfc/4/.yarn/berry/cache/vite-npm-5.4.11-9da365ef2b-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
@@ -3925,7 +3970,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["vitefu", "virtual:de15a172f3b1f48099fbdcb101e1104cfadf152783960343f9f3a3e0dac19f5a2ddc6ebf20755388118a8af684d9a524fd42370c1fc09a858b74d620a0f6a83c#npm:1.0.3"],\
           ["@types/vite", null],\
-          ["vite", "virtual:703bb33f03bc0d870d51e085d16719d779db8034c9e533563649ab7c3ab4aa45c7eaac88a6be9c439cdeef9115d857decbbd3636048a28f5fe8e05367f443e07#npm:5.4.11"]\
+          ["vite", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:5.4.11"]\
         ],\
         "packagePeers": [\
           "@types/vite",\
