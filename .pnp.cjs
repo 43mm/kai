@@ -29,14 +29,14 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@sveltejs/vite-plugin-svelte", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.0.2"],\
           ["@tsconfig/svelte", "npm:5.0.4"],\
-          ["@types/webextension-polyfill", "npm:0.10.7"],\
+          ["@types/webextension-polyfill", "npm:0.12.1"],\
           ["svelte", "npm:5.2.8"],\
           ["svelte-check", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.1.0"],\
           ["tslib", "npm:2.8.1"],\
-          ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"],\
+          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
           ["vite", "virtual:703bb33f03bc0d870d51e085d16719d779db8034c9e533563649ab7c3ab4aa45c7eaac88a6be9c439cdeef9115d857decbbd3636048a28f5fe8e05367f443e07#npm:5.4.11"],\
           ["vite-plugin-web-extension", "npm:4.3.1"],\
-          ["webextension-polyfill", "npm:0.10.0"]\
+          ["webextension-polyfill", "npm:0.12.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -753,10 +753,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/webextension-polyfill", [\
-      ["npm:0.10.7", {\
-        "packageLocation": "../../../.yarn/berry/cache/@types-webextension-polyfill-npm-0.10.7-15434b480f-10c0.zip/node_modules/@types/webextension-polyfill/",\
+      ["npm:0.12.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-webextension-polyfill-npm-0.12.1-4013206fb7-10c0.zip/node_modules/@types/webextension-polyfill/",\
         "packageDependencies": [\
-          ["@types/webextension-polyfill", "npm:0.10.7"]\
+          ["@types/webextension-polyfill", "npm:0.12.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2376,14 +2376,14 @@ const RAW_RUNTIME_STATE =
           ["kai", "workspace:."],\
           ["@sveltejs/vite-plugin-svelte", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.0.2"],\
           ["@tsconfig/svelte", "npm:5.0.4"],\
-          ["@types/webextension-polyfill", "npm:0.10.7"],\
+          ["@types/webextension-polyfill", "npm:0.12.1"],\
           ["svelte", "npm:5.2.8"],\
           ["svelte-check", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.1.0"],\
           ["tslib", "npm:2.8.1"],\
-          ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"],\
+          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
           ["vite", "virtual:703bb33f03bc0d870d51e085d16719d779db8034c9e533563649ab7c3ab4aa45c7eaac88a6be9c439cdeef9115d857decbbd3636048a28f5fe8e05367f443e07#npm:5.4.11"],\
           ["vite-plugin-web-extension", "npm:4.3.1"],\
-          ["webextension-polyfill", "npm:0.10.0"]\
+          ["webextension-polyfill", "npm:0.12.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -3610,7 +3610,7 @@ const RAW_RUNTIME_STATE =
           ["picocolors", "npm:1.1.1"],\
           ["sade", "npm:1.8.1"],\
           ["svelte", "npm:5.2.8"],\
-          ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"]\
         ],\
         "packagePeers": [\
           "@types/svelte",\
@@ -3726,10 +3726,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40", {\
-        "packageLocation": "../../../.yarn/berry/cache/typescript-patch-8964a48ba3-10c0.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5", {\
+        "packageLocation": "../../../.yarn/berry/cache/typescript-patch-aed9e5263d-10c0.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3983,6 +3983,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/webextension-polyfill-npm-0.10.0-3b4d48beb6-10c0.zip/node_modules/webextension-polyfill/",\
         "packageDependencies": [\
           ["webextension-polyfill", "npm:0.10.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.12.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/webextension-polyfill-npm-0.12.0-92b9ef67d0-10c0.zip/node_modules/webextension-polyfill/",\
+        "packageDependencies": [\
+          ["webextension-polyfill", "npm:0.12.0"]\
         ],\
         "linkType": "HARD"\
       }]\
