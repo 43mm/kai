@@ -1,6 +1,7 @@
 <script lang="ts">
-  import { Combobox, Command } from "bits-ui";
+  import { Command } from "bits-ui";
   import type { Drop, Collection } from "./types";
+  import "./app.css";
 
   let drops: Drop[] = $state([]);
   let collections: Collection[] = $state([]);
@@ -41,14 +42,15 @@
 </script>
 
 <div>
-  <h1 class="text-9xl text-gray-100 mt-4">开 kāi</h1>
-  <h3 class="text-3xl m-0">开 kāi</h3>
-  <Command.Root class="flex flex-col w-full">
+  <h1 class="text-9xl font-bold text-gray-50 mt-8">开 kāi</h1>
+  <h3 class="text-3xl font-semibold -mt-4 -mb-3 ml-16 relative z-10">开 kāi</h3>
+  <Command.Root class="root flex flex-col w-full px-8">
     <Command.Input
-      class="w-full truncate border-4 border-gray-800 px-4 py-2 text-3xl"
+      class="w-full rounded truncate bg-gray-100 px-8 py-6 text-3xl font-semibold placeholder:text-gray-300 focus:outline-none"
+      placeholder="type to start..."
     />
   </Command.Root>
-  <section class="flex flex-wrap gap-4 p-4">
+  <section class="flex flex-wrap gap-4 p-4 mt-8">
     <div class="flex flex-col items-center w-20">
       <button
         class="flex items-center justify-center bg-white w-8 h-8 rounded-full border-2 border-gray-800"
@@ -72,7 +74,3 @@
     {/each}
   </section>
 </div>
-
-<style global>
-  @import "tailwindcss";
-</style>
