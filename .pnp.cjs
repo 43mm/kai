@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.10.0"],\
           ["@types/webextension-polyfill", "npm:0.12.1"],\
           ["autoprefixer", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:10.4.20"],\
+          ["bits-ui", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:1.0.0-next.64"],\
           ["postcss", "npm:8.4.49"],\
           ["svelte", "npm:5.2.8"],\
           ["svelte-check", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.1.0"],\
@@ -334,6 +335,46 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@esbuild-win32-x64-npm-0.21.5-eddc2b5ad6/node_modules/@esbuild/win32-x64/",\
         "packageDependencies": [\
           ["@esbuild/win32-x64", "npm:0.21.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@floating-ui/core", [\
+      ["npm:1.6.8", {\
+        "packageLocation": "../../../.yarn/berry/cache/@floating-ui-core-npm-1.6.8-496cdfbb6e-10c0.zip/node_modules/@floating-ui/core/",\
+        "packageDependencies": [\
+          ["@floating-ui/core", "npm:1.6.8"],\
+          ["@floating-ui/utils", "npm:0.2.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@floating-ui/dom", [\
+      ["npm:1.6.12", {\
+        "packageLocation": "../../../.yarn/berry/cache/@floating-ui-dom-npm-1.6.12-4d4284e824-10c0.zip/node_modules/@floating-ui/dom/",\
+        "packageDependencies": [\
+          ["@floating-ui/dom", "npm:1.6.12"],\
+          ["@floating-ui/core", "npm:1.6.8"],\
+          ["@floating-ui/utils", "npm:0.2.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@floating-ui/utils", [\
+      ["npm:0.2.8", {\
+        "packageLocation": "../../../.yarn/berry/cache/@floating-ui-utils-npm-0.2.8-01a00634a5-10c0.zip/node_modules/@floating-ui/utils/",\
+        "packageDependencies": [\
+          ["@floating-ui/utils", "npm:0.2.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@internationalized/date", [\
+      ["npm:3.6.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/@internationalized-date-npm-3.6.0-f0d50f78aa-10c0.zip/node_modules/@internationalized/date/",\
+        "packageDependencies": [\
+          ["@internationalized/date", "npm:3.6.0"],\
+          ["@swc/helpers", "npm:0.5.15"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -741,6 +782,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@swc/helpers", [\
+      ["npm:0.5.15", {\
+        "packageLocation": "../../../.yarn/berry/cache/@swc-helpers-npm-0.5.15-a7a06a73bc-10c0.zip/node_modules/@swc/helpers/",\
+        "packageDependencies": [\
+          ["@swc/helpers", "npm:0.5.15"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@szmarczak/http-timer", [\
       ["npm:5.0.1", {\
         "packageLocation": "../../../.yarn/berry/cache/@szmarczak-http-timer-npm-5.0.1-52261e5986-10c0.zip/node_modules/@szmarczak/http-timer/",\
@@ -1070,6 +1121,34 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["bits-ui", [\
+      ["npm:1.0.0-next.64", {\
+        "packageLocation": "../../../.yarn/berry/cache/bits-ui-npm-1.0.0-next.64-c625e06f2d-10c0.zip/node_modules/bits-ui/",\
+        "packageDependencies": [\
+          ["bits-ui", "npm:1.0.0-next.64"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:1.0.0-next.64", {\
+        "packageLocation": "./.yarn/__virtual__/bits-ui-virtual-aa48223bbb/4/.yarn/berry/cache/bits-ui-npm-1.0.0-next.64-c625e06f2d-10c0.zip/node_modules/bits-ui/",\
+        "packageDependencies": [\
+          ["bits-ui", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:1.0.0-next.64"],\
+          ["@floating-ui/core", "npm:1.6.8"],\
+          ["@floating-ui/dom", "npm:1.6.12"],\
+          ["@internationalized/date", "npm:3.6.0"],\
+          ["@types/svelte", null],\
+          ["esm-env", "npm:1.1.4"],\
+          ["runed", "virtual:aa48223bbba14baa3fc40c3e9d331af77616bf37e2949949156e70ffbb262f32df0d8c0458d751d0b3a6bd1a0336122edc7e3b791f34dc0d790119b9ab1da035#npm:0.15.4"],\
+          ["svelte", "npm:5.2.8"],\
+          ["svelte-toolbelt", "virtual:aa48223bbba14baa3fc40c3e9d331af77616bf37e2949949156e70ffbb262f32df0d8c0458d751d0b3a6bd1a0336122edc7e3b791f34dc0d790119b9ab1da035#npm:0.4.6"]\
+        ],\
+        "packagePeers": [\
+          "@types/svelte",\
+          "svelte"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["bluebird", [\
       ["npm:3.7.2", {\
         "packageLocation": "../../../.yarn/berry/cache/bluebird-npm-3.7.2-6a54136ee3-10c0.zip/node_modules/bluebird/",\
@@ -1330,6 +1409,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/cli-boxes-npm-3.0.0-e5de3a0d5e-10c0.zip/node_modules/cli-boxes/",\
         "packageDependencies": [\
           ["cli-boxes", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["clsx", [\
+      ["npm:2.1.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/clsx-npm-2.1.1-96125b98be-10c0.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2349,6 +2437,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["inline-style-parser", [\
+      ["npm:0.2.4", {\
+        "packageLocation": "../../../.yarn/berry/cache/inline-style-parser-npm-0.2.4-327004543f-10c0.zip/node_modules/inline-style-parser/",\
+        "packageDependencies": [\
+          ["inline-style-parser", "npm:0.2.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ip-address", [\
       ["npm:9.0.5", {\
         "packageLocation": "../../../.yarn/berry/cache/ip-address-npm-9.0.5-9fa024d42a-10c0.zip/node_modules/ip-address/",\
@@ -2726,6 +2823,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.10.0"],\
           ["@types/webextension-polyfill", "npm:0.12.1"],\
           ["autoprefixer", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:10.4.20"],\
+          ["bits-ui", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:1.0.0-next.64"],\
           ["postcss", "npm:8.4.49"],\
           ["svelte", "npm:5.2.8"],\
           ["svelte-check", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.1.0"],\
@@ -3898,6 +3996,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["runed", [\
+      ["npm:0.15.4", {\
+        "packageLocation": "../../../.yarn/berry/cache/runed-npm-0.15.4-8cd1faf65f-10c0.zip/node_modules/runed/",\
+        "packageDependencies": [\
+          ["runed", "npm:0.15.4"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:aa48223bbba14baa3fc40c3e9d331af77616bf37e2949949156e70ffbb262f32df0d8c0458d751d0b3a6bd1a0336122edc7e3b791f34dc0d790119b9ab1da035#npm:0.15.4", {\
+        "packageLocation": "./.yarn/__virtual__/runed-virtual-631f724d0b/4/.yarn/berry/cache/runed-npm-0.15.4-8cd1faf65f-10c0.zip/node_modules/runed/",\
+        "packageDependencies": [\
+          ["runed", "virtual:aa48223bbba14baa3fc40c3e9d331af77616bf37e2949949156e70ffbb262f32df0d8c0458d751d0b3a6bd1a0336122edc7e3b791f34dc0d790119b9ab1da035#npm:0.15.4"],\
+          ["@types/svelte", null],\
+          ["esm-env", "npm:1.1.4"],\
+          ["svelte", "npm:5.2.8"]\
+        ],\
+        "packagePeers": [\
+          "@types/svelte",\
+          "svelte"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["sade", [\
       ["npm:1.8.1", {\
         "packageLocation": "../../../.yarn/berry/cache/sade-npm-1.8.1-4759dc74c1-10c0.zip/node_modules/sade/",\
@@ -4212,6 +4333,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["style-to-object", [\
+      ["npm:1.0.8", {\
+        "packageLocation": "../../../.yarn/berry/cache/style-to-object-npm-1.0.8-20c55b5918-10c0.zip/node_modules/style-to-object/",\
+        "packageDependencies": [\
+          ["style-to-object", "npm:1.0.8"],\
+          ["inline-style-parser", "npm:0.2.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["sucrase", [\
       ["npm:3.35.0", {\
         "packageLocation": "../../../.yarn/berry/cache/sucrase-npm-3.35.0-60ad876a0c-10c0.zip/node_modules/sucrase/",\
@@ -4303,6 +4434,30 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["svelte-dnd-action", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:0.9.52"],\
           ["@types/svelte", null],\
+          ["svelte", "npm:5.2.8"]\
+        ],\
+        "packagePeers": [\
+          "@types/svelte",\
+          "svelte"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["svelte-toolbelt", [\
+      ["npm:0.4.6", {\
+        "packageLocation": "../../../.yarn/berry/cache/svelte-toolbelt-npm-0.4.6-ff8f16edb2-10c0.zip/node_modules/svelte-toolbelt/",\
+        "packageDependencies": [\
+          ["svelte-toolbelt", "npm:0.4.6"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:aa48223bbba14baa3fc40c3e9d331af77616bf37e2949949156e70ffbb262f32df0d8c0458d751d0b3a6bd1a0336122edc7e3b791f34dc0d790119b9ab1da035#npm:0.4.6", {\
+        "packageLocation": "./.yarn/__virtual__/svelte-toolbelt-virtual-0e7951311d/4/.yarn/berry/cache/svelte-toolbelt-npm-0.4.6-ff8f16edb2-10c0.zip/node_modules/svelte-toolbelt/",\
+        "packageDependencies": [\
+          ["svelte-toolbelt", "virtual:aa48223bbba14baa3fc40c3e9d331af77616bf37e2949949156e70ffbb262f32df0d8c0458d751d0b3a6bd1a0336122edc7e3b791f34dc0d790119b9ab1da035#npm:0.4.6"],\
+          ["@types/svelte", null],\
+          ["clsx", "npm:2.1.1"],\
+          ["style-to-object", "npm:1.0.8"],\
           ["svelte", "npm:5.2.8"]\
         ],\
         "packagePeers": [\
