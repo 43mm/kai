@@ -27,6 +27,9 @@
       "128": "icon/icon128.png"
     }
   },
+  "chrome_url_overrides": {
+    "newtab": "src/index.html"
+  },
   "background": {
     "{{chrome}}.service_worker": "src/background.ts",
     "{{firefox}}.scripts": ["src/background.ts"]
