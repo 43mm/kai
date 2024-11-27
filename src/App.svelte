@@ -73,8 +73,6 @@
   </section>
 </div>
 
-<style global lang="postcss">
-  @tailwind utilities;
-  @tailwind components;
-  @tailwind base;
+<style global>
+  @import "tailwindcss";
 </style>
