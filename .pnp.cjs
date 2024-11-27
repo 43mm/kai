@@ -35,6 +35,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.49"],\
           ["svelte", "npm:5.2.8"],\
           ["svelte-check", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.1.0"],\
+          ["svelte-dnd-action", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:0.9.52"],\
           ["tailwindcss", "npm:3.4.15"],\
           ["tslib", "npm:2.8.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
@@ -2728,6 +2729,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.49"],\
           ["svelte", "npm:5.2.8"],\
           ["svelte-check", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:4.1.0"],\
+          ["svelte-dnd-action", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:0.9.52"],\
           ["tailwindcss", "npm:3.4.15"],\
           ["tslib", "npm:2.8.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
@@ -4284,6 +4286,28 @@ const RAW_RUNTIME_STATE =
           "@types/typescript",\
           "svelte",\
           "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["svelte-dnd-action", [\
+      ["npm:0.9.52", {\
+        "packageLocation": "../../../.yarn/berry/cache/svelte-dnd-action-npm-0.9.52-883c85cb35-10c0.zip/node_modules/svelte-dnd-action/",\
+        "packageDependencies": [\
+          ["svelte-dnd-action", "npm:0.9.52"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:0.9.52", {\
+        "packageLocation": "./.yarn/__virtual__/svelte-dnd-action-virtual-c22076d4fb/4/.yarn/berry/cache/svelte-dnd-action-npm-0.9.52-883c85cb35-10c0.zip/node_modules/svelte-dnd-action/",\
+        "packageDependencies": [\
+          ["svelte-dnd-action", "virtual:2e5cd8940188699b289a9567e2f9062481afe197152f3996b478a194dd146859467867f40af080a036e8059ba9240a33c40e65c21ff3becb21dff70447a331c7#npm:0.9.52"],\
+          ["@types/svelte", null],\
+          ["svelte", "npm:5.2.8"]\
+        ],\
+        "packagePeers": [\
+          "@types/svelte",\
+          "svelte"\
         ],\
         "linkType": "HARD"\
       }]\

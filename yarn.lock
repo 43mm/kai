@@ -2310,6 +2310,7 @@ __metadata:
     postcss: "npm:^8.4.49"
     svelte: "npm:^5.2.8"
     svelte-check: "npm:^4.1.0"
+    svelte-dnd-action: "npm:^0.9.52"
     tailwindcss: "npm:^3.4.15"
     tslib: "npm:^2.8.1"
     typescript: "npm:~5.7.2"
@@ -3679,6 +3680,15 @@ __metadata:
   bin:
     svelte-check: bin/svelte-check
   checksum: 10c0/ee04862f790703c8bb759d96cd0bb1c8b606bea0617d4e8dcab1116640e1a407d578f272d0bed870476b07edc704db0c66075956e7371e08b1460edceff9d7ea
+  languageName: node
+  linkType: hard
+
+"svelte-dnd-action@npm:^0.9.52":
+  version: 0.9.52
+  resolution: "svelte-dnd-action@npm:0.9.52"
+  peerDependencies:
+    svelte: ">=3.23.0 || ^5.0.0-next.0"
+  checksum: 10c0/3f14794572d676ab03c28f28c90cb6f9d52698cdc020a1d4a995776da3b04788cd9bda7602eaa935d6dbf2a6d7b90170185080d2e046a45a3973f5b0f4c3518c
   languageName: node
   linkType: hard
 
