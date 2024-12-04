@@ -5,6 +5,7 @@
 
   let drops: Drop[] = $state([]);
   let collections: Collection[] = $state([]);
+  let input = $state("");
 
   let dropsWithoutCollection = $derived(
     drops.filter((d) => !d.collectionId).sort((a, b) => a.order - b.order),
@@ -48,7 +49,15 @@
     <Command.Input
       class="w-full rounded truncate bg-gray-100 px-8 py-6 text-3xl font-semibold placeholder:text-gray-300 focus:outline-none"
       placeholder="type to start..."
+      bind:value={input}
     />
+    <Command.List class="max-h-80 overflow-y-auto overflow-x-hidden px-8 py-4">
+      {#if input}
+        <Command.Viewport>
+          <Command.Item class="text-xl">add new link</Command.Item>
+        </Command.Viewport>
+      {/if}
+    </Command.List>
   </Command.Root>
   <section class="flex flex-wrap gap-4 p-4 mt-8">
     <div class="flex flex-col items-center w-20">
